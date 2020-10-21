@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navigator.Poroda1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="1.Бостонские терьеры"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
+            <Image Source="boston.jpg"
+                   />
+            <Label Text="Бостонские терьеры добродушны, умны и уживчивы"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="obratno"
+                    Text="Вернутся в главное меню"
+                    />
+            <Button x:Name="sled"
+                    Text="Следующая порода"
+                    />
+            <Button x:Name="konec"
+                    Text="Переключится на самое последнее"
+                    />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navigator.MainPage">
+
+    <StackLayout BackgroundColor="#EEEFF0">
+        <!--https://www.the-village.ru/city/city/161421-kakuyu-sobaku-luchshe-vsego-zavesti-gorozhaninu-->
+            <Label
+            Text="Породы собак"
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="Center"
+            FontSize="Large"
+            TextColor="#1165E5"
+            FontAttributes="Bold"/>
+        <Image Source="doggymain.jpg"
+               WidthRequest = "200"
+               HeightRequest = "200"/>
+        <Button x:Name="poroda1"
+            Text="Бостон-терьер"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"
+            WidthRequest="200"
+            Clicked="poroda1_Clicked"/>
+        <Button x:Name="poroda2"
+            Text="Английский бульдог"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"
+            Clicked="poroda2_Clicked"/>
+        <Button x:Name="poroda3"
+            Text="Йоркширский терьер"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"
+            WidthRequest="200"
+            Clicked="poroda3_Clicked"/>
+        <Button x:Name="poroda4"
+            Text="Мопс"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"
+            WidthRequest="200"
+            Clicked="poroda4_Clicked"/>
+        <Button x:Name="poroda5"
+            Text="Уиппет"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"
+            WidthRequest="200"
+            Clicked="poroda5_Clicked"/>
+        <Button x:Name="poroda6"
+            Text="Чихуахуа"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"
+            WidthRequest="200"
+            Clicked="poroda6_Clicked"/>
+        <Button x:Name="poroda7"
+            Text="Русская борзая"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"
+            WidthRequest="200"
+            Clicked="poroda7_Clicked"/>
+        <Button x:Name="poroda8"
+            Text="Кавалер кинг чарльз спаниель" 
+            VerticalOptions="Start"
+            HorizontalOptions="Center"
+            WidthRequest="200"
+            Clicked="poroda8_Clicked"
+            />
+        <Button x:Name="dopol"
+                Text="Дополнение (Elemendid)"
+                VerticalOptions="Start"
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="100000000000000000000000000000"
+                Clicked="dopol_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
