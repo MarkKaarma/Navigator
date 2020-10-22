@@ -4,9 +4,23 @@
              x:Class="Navigator.Poroda2">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="2.Английский бульдог"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
+            <Image Source="angl.jpg"
+                   />
+            <Label Text="Насколько известно, бульдог происходит с Британских островов, а название его (буквально «бычья собака») связано с использованием этих собак при травле быков."
+                VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="obratno"
+                    Text="Вернутся в главное меню"
+                    />
+            <Button x:Name="sled"
+                    Text="Следующая порода"
+                    />
+            <Button x:Name="konec"
+                    Text="Переключится на самое последнее"
+                    />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

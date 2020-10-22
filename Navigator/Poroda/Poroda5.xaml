@@ -4,9 +4,23 @@
              x:Class="Navigator.Poroda5">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="Уиппет"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
+            <Image Source="uippet.jpg"
+                   />
+            <Label Text="Небольшая порода собак родом из Англии, ее название произошло от английского whippet, что дословно означает «гончая»."
+                VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="obratno"
+                    Text="Вернутся в главное меню"
+                    />
+            <Button x:Name="sled"
+                    Text="Следующая порода"
+                    />
+            <Button x:Name="konec"
+                    Text="Переключится на самое последнее"
+                    />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

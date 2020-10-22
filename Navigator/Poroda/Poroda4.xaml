@@ -4,9 +4,23 @@
              x:Class="Navigator.Poroda4">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="Мопс"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
+            <Image Source="mops.jpg"
+                   />
+            <Label Text="Мопсы чудесным образом сочетают в себе очарование собачки маленького формата и отвагу настоящего преданного пса."
+                VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="obratno"
+                    Text="Вернутся в главное меню"
+                    />
+            <Button x:Name="sled"
+                    Text="Следующая порода"
+                    />
+            <Button x:Name="konec"
+                    Text="Переключится на самое последнее"
+                    />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

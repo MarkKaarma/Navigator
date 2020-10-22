@@ -4,9 +4,23 @@
              x:Class="Navigator.Poroda6">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="Чихуахуа"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
+            <Image Source="chuahua.jpg"
+                   />
+            <Label Text="Считается самой маленькой собакой в мире и носит имя мексиканского штата Чиуауа."
+                VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="obratno"
+                    Text="Вернутся в главное меню"
+                    />
+            <Button x:Name="sled"
+                    Text="Следующая порода"
+                    />
+            <Button x:Name="konec"
+                    Text="Переключится на самое последнее"
+                    />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

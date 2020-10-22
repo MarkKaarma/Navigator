@@ -4,9 +4,23 @@
              x:Class="Navigator.Poroda7">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="Русская борзая"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
+            <Image Source="borzaja.jpg"
+                   />
+            <Label Text="Эта собака ценит расслабленный образ жизни, любит свернуться где-нибудь на диване в тепле."
+                VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="obratno"
+                    Text="Вернутся в главное меню"
+                    />
+            <Button x:Name="sled"
+                    Text="Следующая порода"
+                    />
+            <Button x:Name="konec"
+                    Text="Переключится на самое последнее"
+                    />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

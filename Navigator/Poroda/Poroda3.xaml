@@ -4,9 +4,23 @@
              x:Class="Navigator.Poroda3">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="3.Йоркширский терьер"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
+            <Image Source="terjer.jpg"
+                   />
+            <Label Text="Одна из самых популярных в мире комнатно-декоративных пород собак. Йорк очарователен внешне, энергичен, ласков и является отличным компаньоном."
+                VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="obratno"
+                    Text="Вернутся в главное меню"
+                    />
+            <Button x:Name="sled"
+                    Text="Следующая порода"
+                    />
+            <Button x:Name="konec"
+                    Text="Переключится на самое последнее"
+                    />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
