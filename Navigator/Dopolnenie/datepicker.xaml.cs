@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Navigator
+namespace Navigator.Dopolnenie
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Dop : TabbedPage
+    public partial class datepicker : ContentPage
     {
-        public Dop()
+        public datepicker()
         {
             InitializeComponent();
         }

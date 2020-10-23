@@ -16,5 +16,21 @@ namespace Navigator
         {
             InitializeComponent();
         }
+
+        private async void obratno_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopToRootAsync();
+            await Navigation.PushAsync(new MainPage());
+        }
+
+        private async void sled_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Poroda2());
+        }
+
+        private async void konec_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Poroda8());
+        }
     }
 }

@@ -8,19 +8,21 @@
                    FontSize="Large"
                    HorizontalOptions="Center"/>
             <Image Source="chuahua.jpg"
-                   />
+                   WidthRequest = "300"
+               HeightRequest = "300"/>
             <Label Text="Считается самой маленькой собакой в мире и носит имя мексиканского штата Чиуауа."
                 VerticalOptions="Start" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand"
+                   Margin="5"/>
             <Button x:Name="obratno"
                     Text="Вернутся в главное меню"
-                    />
+                    Clicked="obratno_Clicked"/>
             <Button x:Name="sled"
                     Text="Следующая порода"
-                    />
+                    Clicked="sled_Clicked"/>
             <Button x:Name="konec"
                     Text="Переключится на самое последнее"
-                    />
+                    Clicked="konec_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

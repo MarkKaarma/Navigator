@@ -16,5 +16,12 @@ namespace Navigator
         {
             InitializeComponent();
         }
+
+        private async void obratno_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopToRootAsync();
+            await Navigation.PushAsync(new MainPage());
+            
+        }
     }
 }

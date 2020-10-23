@@ -4,17 +4,19 @@
              x:Class="Navigator.Poroda8">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Кавалер кинг чарльз спаниель"
+            <Label Text="8.Кавалер кинг чарльз спаниель"
                    FontSize="Large"
                    HorizontalOptions="Center"/>
             <Image Source="kavaler.jpg"
-                   />
+                   WidthRequest = "300"
+               HeightRequest = "300"/>
             <Label Text="Кавалеры буквально излучают оптимизм и готовы подружиться с кем угодно: другой собакой, ребёнком и даже кошкой."
                 VerticalOptions="Start" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand"
+                   Margin="5"/>
             <Button x:Name="obratno"
                     Text="Вернутся в главное меню"
-                    />
+                    Clicked="obratno_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

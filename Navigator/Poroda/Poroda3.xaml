@@ -8,19 +8,22 @@
                    FontSize="Large"
                    HorizontalOptions="Center"/>
             <Image Source="terjer.jpg"
-                   />
+                   WidthRequest = "300"
+               HeightRequest = "300"/>
             <Label Text="Одна из самых популярных в мире комнатно-декоративных пород собак. Йорк очарователен внешне, энергичен, ласков и является отличным компаньоном."
                 VerticalOptions="Start" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand"
+                   Margin="5"
+                   />
             <Button x:Name="obratno"
                     Text="Вернутся в главное меню"
-                    />
+                    Clicked="obratno_Clicked"/>
             <Button x:Name="sled"
                     Text="Следующая порода"
-                    />
+                    Clicked="sled_Clicked"/>
             <Button x:Name="konec"
                     Text="Переключится на самое последнее"
-                    />
+                    Clicked="konec_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -8,19 +8,20 @@
                    FontSize="Large"
                    HorizontalOptions="Center"/>
             <Image Source="boston.jpg"
-                   />
+                   WidthRequest = "300"
+               HeightRequest = "300"/>
             <Label Text="Бостонские терьеры добродушны, умны и уживчивы"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand" />
             <Button x:Name="obratno"
                     Text="Вернутся в главное меню"
-                    />
+                    Clicked="obratno_Clicked"/>
             <Button x:Name="sled"
                     Text="Следующая порода"
-                    />
+                    Clicked="sled_Clicked"/>
             <Button x:Name="konec"
                     Text="Переключится на самое последнее"
-                    />
+                    Clicked="konec_Clicked"/>
 
         </StackLayout>
     </ContentPage.Content>
