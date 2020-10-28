@@ -1,12 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Navigator.Dopolnenie.tableview">
+             x:Class="Navigator.Dopolnenie.tableview"
+             Title="Table   View">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <TableView Intent="Settings">
+                <TableRoot>
+                    <TableSection Title="Хм... Просто так?" TextColor="Black" >
+                        <SwitchCell Text="Любить собак" />
+                        <SwitchCell Text="Ненавидеть кошек"  />
+                    </TableSection>
+                </TableRoot>
+            </TableView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

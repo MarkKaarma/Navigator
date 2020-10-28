@@ -5,9 +5,18 @@
              Title="entry">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="entery"
+                Placeholder="Username"
+                PlaceholderColor="Olive"
+                HeightRequest="100"
+                WidthRequest="200"/>
+            <Entry x:Name="entery2"
+                   IsPassword="true" 
+                   Placeholder="Password"></Entry>
+            <Entry x:Name="entery3"
+                   Placeholder="ID"
+                   MaxLength="11"
+                   Keyboard="Numeric"></Entry>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

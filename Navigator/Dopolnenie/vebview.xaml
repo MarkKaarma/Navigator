@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Navigator.Dopolnenie.listviev"
-             Title="ListView">
+             x:Class="Navigator.Dopolnenie.vebview"
+             Title="WebView">
     <ContentPage.Content>
         <StackLayout>
-            <Image Source="pepe_cross.gif" IsAnimationPlaying="True"
-                   HorizontalOptions="Center"
-                   VerticalOptions="CenterAndExpand"></Image>
+            <WebView Source="https://www.google.com/"
+            HeightRequest="1000"
+            WidthRequest="1000"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

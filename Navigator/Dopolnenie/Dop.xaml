@@ -8,6 +8,7 @@
     <TabbedPage.Children>
         <local:enetry/>
         <local:listviev/>
+        <local:vebview/>
         <local:datepicker/>
         <local:tableview/>
     </TabbedPage.Children>
