@@ -12,9 +12,10 @@
                FontSize="Medium"
                 Text="Если изменишь время, то я пропаду..."
             />
-            <TimePicker x:Name="TimetoChange"
+            <TimePicker x:Name="tpicker"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
+                PropertyChanged="tpicker_PropertyChanged"
                 
             />
             <Image x:Name="kartinka" Source="pepe_sad.png"
