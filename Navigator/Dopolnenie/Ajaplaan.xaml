@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navigator.Dopolnenie.Ajaplaan"
+             Title="Ajaplaan">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="Labla"
+                HorizontalOptions="Center"
+                 VerticalOptions="StartAndExpand"
+                Padding="10"
+               FontSize="Medium"
+                Text="Если изменишь время, то я пропаду..."
+            />
+            <TimePicker x:Name="TimetoChange"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                
+            />
+            <Image x:Name="kartinka" Source="pepe_sad.png"
+                   HorizontalOptions="End"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

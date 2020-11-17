@@ -6,10 +6,11 @@
             
              x:Class="Navigator.Dop" BarTextColor="WhiteSmoke" BarBackgroundColor="#4A76F1">
     <TabbedPage.Children>
-        <local:enetry/>
+        <local:Ajaplaan></local:Ajaplaan>
+        <!--<local:enetry/>
         <local:listviev/>
         <local:vebview/>
         <local:datepicker/>
-        <local:tableview/>
+        <local:tableview/>-->
     </TabbedPage.Children>
 </TabbedPage>
