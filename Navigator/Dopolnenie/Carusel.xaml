@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navigator.Dopolnenie.Carusel"
+              Title="Carusel">
+    <ContentPage>
+        <StackLayout>
+            <Image Source="holerik.jpg" Margin="5"/>
+            <Button x:Name="uril1"
+                Text="Хочешь узнать какой ты тип? Пройди тест *откроется ссылка*"
+                Clicked="uril1_Clicked"
+            />
+            <Frame x:Name="Textis1" Margin="20"
+                   VerticalOptions="Center"
+                   HorizontalOptions="FillAndExpand">
+                <Label x:Name="Textis11"
+                     Text="Горячий, импульсивный, стремительно реагирующий на ситуацию, страстный и неуравновешенный — вот основные характеристики человека с типом темперамента холерика. Среди особенностей этого типа – он никогда не сидит на месте, способен преодолевать многие трудности, но подвержен резким переменам настроения, сильным эмоциональным вспышкам. 
+                       Холерик – это человек-непоседа, вечный двигатель, который все время куда-то спешит, пытается сделать несколько дел одновременно, однако не всегда доводит их до конца."
+                     IsVisible="false">
+                </Label>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" />
+                </Frame.GestureRecognizers>
+            </Frame>
+            
+        </StackLayout>
+    </ContentPage>
+    
+    <ContentPage>
+        <StackLayout>
+            <Image Source="sangvinik.jpg" Margin="5"/>
+            <Button x:Name="uril2"
+                    Text="Хочешь узнать какой ты тип? Пройди тест *откроется ссылка*"
+                    Clicked="uril2_Clicked"
+            />
+            <Frame x:Name="Textis2" Margin="20"
+                   VerticalOptions="Center"
+                   HorizontalOptions="FillAndExpand">
+                <Label x:Name="Textis21"
+                     Text="Cангвиник — самый сильный и яркий. Среди его характеристик – высокая работоспособность, психическая активность, энергичность. Он нем часто говорят, что он шутник и весельчак.
+                                   Сангвиник обладает повышенной коммуникабельностью и гибкостью ума, любим многими за жизнерадостность и приветливость."
+                     IsVisible="false">
+                </Label>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"  NumberOfTapsRequired="1" />
+                </Frame.GestureRecognizers>
+            </Frame>
+        </StackLayout>
+    </ContentPage>
+    
+    <ContentPage>
+        <StackLayout>
+            <Image Source="flegmatik.jpg" Margin="5"/>
+            <Button x:Name="uril3"
+                    Text="Хочешь узнать какой ты тип? Пройди тест *откроется ссылка*"
+                    Clicked="uril3_Clicked"
+                    
+            />
+            <Frame x:Name="Textis3" Margin="20"
+                   VerticalOptions="Center"
+                   HorizontalOptions="FillAndExpand">
+                <Label x:Name="Textis31"
+                     Text="Флегматический тип темперамента можно назвать золотой серединой по сравнению с другими. Благодаря своему спокойствию такие люди часто оказывают благотворное влияние на действенного сангвиника, не обращают внимания на завышенные требования меланхолика и способны сдерживать резкие порывы холерика. 
+                                              Среди всех типов темперамента флегматики выступают в качестве своеобразного компенсатора, который не впадает в крайности, не создает лишних проблем и поддерживает баланс в коллективе."
+                     IsVisible="false">
+                </Label>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2" NumberOfTapsRequired="1" />
+                </Frame.GestureRecognizers>
+            </Frame>
+        </StackLayout>
+    </ContentPage>
+    
+    <ContentPage>
+        <StackLayout>
+            <Image Source="melanholik.jpg" Margin="5"/>
+            <Button x:Name="uril4"
+                    Text="Хочешь узнать какой ты тип? Пройди тест *откроется ссылка*"
+                    Clicked="uril4_Clicked"
+            />
+            <Frame x:Name="Textis4" Margin="20"
+                   VerticalOptions="Center"
+                   HorizontalOptions="FillAndExpand">
+                <Label x:Name="Textis41"
+                     Text="Меланхоликов отличает вдумчивость, повышенная тревожность, негативное или как минимум невосторженное отношение к переменам в жизни. Представители меланхолического темперамента дорожат своим бытом и стараются не изменять привычкам, закутываясь в своеобразный кокон. Из всех типов темпераментов меланхолику сложнее всего покинуть зону комфорта."
+                     IsVisible="false">
+                </Label>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3" NumberOfTapsRequired="1" />
+                </Frame.GestureRecognizers>
+            </Frame>
+        </StackLayout>
+    </ContentPage>
+</CarouselPage>

@@ -50,12 +50,6 @@
             HorizontalOptions="Center"
             WidthRequest="200"
             Clicked="poroda6_Clicked"/>
-        <Button x:Name="poroda7"
-            Text="Русская борзая"
-            VerticalOptions="Start"
-            HorizontalOptions="Center"
-            WidthRequest="200"
-            Clicked="poroda7_Clicked"/>
         <Button x:Name="poroda8"
             Text="Кавалер кинг чарльз спаниель" 
             VerticalOptions="Start"
@@ -64,7 +58,7 @@
             Clicked="poroda8_Clicked"
             />
         <Button x:Name="dopol"
-                Text="Дополнение (Elemendid)"
+                Text="Другие темы(методы)"
                 VerticalOptions="Start"
                 HorizontalOptions="CenterAndExpand"
                 WidthRequest="100000000000000000000000000000"
