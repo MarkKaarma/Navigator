@@ -51,32 +51,32 @@ namespace Navigator.Dopolnenie
                 else if (time == 6)
                 {
                     Labla.Text = "Доброе утро?";
-                    kartinka.Source = "nuli.jpg";
+                    kartinka.Source = "morning.jpg";
                 }
                 else if (time == 7)
                 {
                     Labla.Text = "Давай беги к автобусу, а то опоздаешь";
-                    kartinka.Source = "nuli.jpg";
+                    kartinka.Source = "morning.jpg";
                 }
                 else if (time == 8)
                 {
                     Labla.Text = "Первый урок… Нудный, верно?";
-                    kartinka.Source = "nuli.jpg";
+                    kartinka.Source = "morning.jpg";
                 }
                 else if (time == 9)
                 {
                     Labla.Text = "Bruh";
-                    kartinka.Source = "nuli.jpg";
+                    kartinka.Source = "morning.jpg";
                 }
                 else if (time == 10)
                 {
                     Labla.Text = "10 утра… Ужс";
-                    kartinka.Source = "nuli.jpg";
+                    kartinka.Source = "morning.jpg";
                 }
                 else if (time == 11)
                 {
                     Labla.Text = "Ну всё, теперь у меня нет заготовленных текстов, так уж….";
-                    kartinka.Source = "nuli.jpg";
+                    kartinka.Source = "morning.jpg";
                 }
                 else
                 {
